@@ -1,0 +1,8 @@
+
+<div class="jumbotron text-center">
+  <button class="btn btn-success btn-lg" (click)="tirarDados()">Lanzar Dados</button>
+  <br>
+  <img class="img" [src]="dadoIzquierda" >
+  <img class="img" [src]="dadoDerecha" >
+  <h1 *ngIf="numeroUno===numeroDos"><span class="badge badge-success">Los dados son iguales - Ganaste</span></h1>
+</div>
